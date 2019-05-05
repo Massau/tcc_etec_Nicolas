@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 	<!--<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style_common.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style1.css">
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic'>
@@ -22,13 +22,18 @@
 		.bgBranco {
 			color: #000000;
 		}
+		.img_logo{
+			height: 50px;
+		}
 	</style>
 </head>
 <body>
 	<div id="page-top" class="index">
 		
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		 	<a class="navbar-brand" href="#">Navbar</a>
+		 	<a class="navbar-brand" href="#">
+				<img class="img_logo" src="assets/img/logo.png">
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
 			</button>
@@ -69,8 +74,8 @@
     							<button type="submit" class="btn btn-primary">Enviar</button>
  							</form>
   							<div class="dropdown-divider"></div>
-  								<a class="dropdown-item" href="#">Cadastro de novo vendedor</a>
-  								<a class="dropdown-item" href="#">Cadastro de novo produtor</a>
+  								<a class="dropdown-item" href="cad_vendedor.php">Cadastro de novo vendedor</a>
+  								<a class="dropdown-item" href="cad_agricultor.php">Cadastro de novo produtor</a>
   								<a class="dropdown-item" href="#">Esqueceu a senha?</a>
 							</div>
 					</li>

@@ -14,8 +14,8 @@ include("cabecalho.php");
 	<section id="justificativa" style="background-color: black">
 		<div class="container">
 			<div class="row">
-				<div class="row">
-					<div class="col-lg-12 text-center">
+				<div class="row text-center">
+					<div class="col-lg-12 ">
 						<h2 class="section-heading">Justificativa</h2>
 						<h3 class="section-subheading text-muted">Das dificuldades do produtor rural</h3>
 					</div>
@@ -26,7 +26,7 @@ include("cabecalho.php");
 						<ul class="timeline">
 							<li>
 								<div class="timeline-image">
-									<img class="img-circle img-responsive" src="assets/img/icone3.jpg">
+									<img class="rounded-circle img-fluid" src="assets/img/icone3.jpg">
 								</div>
 							</li>
 						</ul><br>
@@ -53,7 +53,7 @@ include("cabecalho.php");
 						<ul class="timeline">
 							<li>
 								<div class="timeline-image">
-									<img class="img-circle img-responsive" src="assets/img/icone2.jpg">
+									<img class="rounded-circle img-fluid" src="assets/img/icone2.jpg">
 								</div>
 							</li>
 						</ul>
