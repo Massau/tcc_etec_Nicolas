@@ -1,3 +1,12 @@
 body {
 	background-color: black
 }
+.shadow {
+	text-shadow: 2px 2px 4px #000000;
+}
+.bgBranco {
+	color: #000000;
+}
+.img_logo{
+	height: 70px;
+}

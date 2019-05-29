@@ -16,15 +16,10 @@
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic'>
 	<!-- Importando os javascripts dos estilos -->
 	<script src="assets/js/modernizr.custom.69142.js"></script>
-	<script src="assets/js/jquery-1.10.1.min.js"></script>
-	<script src="assets/js/bootstrap.min.js" ></script>
+	<!--<script src="assets/js/jquery-1.10.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js" ></script>-->
 	<style>
-		.bgBranco {
-			color: #000000;
-		}
-		.img_logo{
-			height: 50px;
-		}
+
 	</style>
 </head>
 <body>
