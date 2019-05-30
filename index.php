@@ -24,7 +24,6 @@ include("cabecalho.php");
       <div class="carousel-item active">
         <img src="assets/img/missao.jpg" class="d-block w-100" alt="..." style="height:85vh">
         <div class="carousel-caption d-none d-md-block">
-          <!--h1 class="intro-lead-in shadow">Missão</h1>-->
           <h3 class="intro-heading shadow">Nossa <b class="text-success">Missão</b> é beneficiar o maior número de pessoas, oferecendo um impacto real</h3>
         </div>
       </div>
